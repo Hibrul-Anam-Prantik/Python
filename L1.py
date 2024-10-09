@@ -1,6 +1,6 @@
-name=input("What's your name?")
-age=input("How old are you?")
-cgpa=input("Enter your CGPA.(out of 4.00)P")
+name=input("What's your name?\n=> ")
+age=input("How old are you?\n=> ")
+cgpa=input("Enter your CGPA.(out of 4.00)\n=> ")
 
 print("Student Information")
 print("____________________")
