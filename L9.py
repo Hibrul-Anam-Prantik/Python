@@ -1,16 +1,15 @@
-a= float(input("Your obtained number- "))
+# Grading System
 
-if a>=80:
-    print("A+")
-elif a>=70:
-    print("A")
-elif a>=60:
-    print("A-")
-elif a>=50:
-    print("B")
+mark = float(input("Obtained Mark: "))
 
-elif a>=40:
-    print("C")
-elif a>=30:print("D")
-else :
-    print("F")
+if mark >= 97: print("A+")
+elif mark >= 90: print("A")
+elif mark >= 85: print("A-")
+elif mark >= 80: print("B+")
+elif mark >= 75: print("B")
+elif mark >= 70: print("B-")
+elif mark >= 65: print("C")
+elif mark >= 60: print("C-")
+elif mark >= 55: print("D")
+elif mark >= 50: print("D-")
+else: print("F")
