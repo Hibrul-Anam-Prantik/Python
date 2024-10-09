@@ -1,7 +1,11 @@
-#largest number.
-a= input("1. Choose a value for a =")
-b= input("2. Choose a value for b =")
-if a>b:
-    print("a")
+# Largest Number
+
+num1 = input("Enter a number, \na = ")
+num2 = input("Enter a number,\nb = ")
+
+if num1 > num2:
+    print("a is largest [a = ", num1, "]")
+elif num1 < num2:
+    print("b is largest [b = " + num2 + "]")
 else:
-    print("b")
+    print("a & b are same [a = ", num1, ", b = " + num2, "]")
